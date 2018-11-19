@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Maarten Terpstra"
-  avatar           : "profile.png"
+  avatar           : "avatar.png"
   bio              : "PhD Student at University Medical Center Utrecht | Deep Learning for Real-Time MRI Reconstruction"
   location         : "Utrecht, NL"
   employer         :
