@@ -11,43 +11,37 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BSc in Computing Science, University of Groningen, July 2014
+  * Thesis supervisor: prof. dr. A. Lazovik
+  * Thesis title: Applying web-scale architectures to legacy systems. 
+* MSc in Computing Science, University of Groningen, January 2017
+  * Thesis supervisor: prof. dr. A.C. Telea
+  * Thesis title: Dense Skeletons for Image Compression and Manipulation.
+* Ph.D in Deep Learning for real-time MRI-guided radiotherapy, 2022 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* January 2017 - July 2018: Software Developer
+  * Royal Netherlands Meteorological Institute (KNMI)
+  * Duties included: 
+   * Frontend and Backend development (React and Spring/Java, respectively)
+   * Devops responsiblities (development, testing, and deployment)
+   * Co-creating institute-wide standards on the whole software development pipeline
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+{% if site.publications %}
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+{% endif %}
+{% if site.talks %}
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+{% endif %}
 Teaching
 ======
   <ul>{% for post in site.teaching %}
