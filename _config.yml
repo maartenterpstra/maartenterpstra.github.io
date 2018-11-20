@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Maarten Terpstra / PhD Candidate"
+title                    : "Maarten Terpstra"
 title_separator          : "-"
 name                     : &name "Maarten Terpstra"
 description              : &description "Maarten Terpstra"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Maarten Terpstra"
   avatar           : "avatar.jpg"
-  bio              : "PhD Student at University Medical Center Utrecht | Deep Learning for Real-Time MRI Reconstruction"
+  bio              : "PhD Candidate at University Medical Center Utrecht | Deep Learning for Real-Time MRI Reconstruction"
   location         : "Utrecht, NL"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
