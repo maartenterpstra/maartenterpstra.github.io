@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+------
 * BSc in Computing Science, University of Groningen, July 2014
   * Thesis supervisor: prof. dr. A. Lazovik
   * Thesis title: Applying web-scale architectures to legacy systems. 
@@ -20,7 +20,7 @@ Education
 * Ph.D in Deep Learning for real-time MRI-guided radiotherapy, 2022 (expected)
 
 Work experience
-======
+------
 * January 2017 - July 2018: Software Developer
   * Royal Netherlands Meteorological Institute (KNMI)
   * Duties included: 
@@ -30,20 +30,20 @@ Work experience
   
 {% if site.publications %}
 Publications
-======
+------
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 {% endif %}
 {% if site.talks %}
 Talks
-======
+------
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 {% endif %}
 Teaching
-======
+------
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
