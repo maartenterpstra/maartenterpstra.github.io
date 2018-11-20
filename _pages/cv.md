@@ -24,9 +24,9 @@ Work experience
 * January 2017 - July 2018: Software Developer
   * Royal Netherlands Meteorological Institute (KNMI)
   * Duties included: 
-   * Frontend and Backend development (React and Spring/Java, respectively)
-   * Devops responsiblities (development, testing, and deployment)
-   * Co-creating institute-wide standards on the whole software development pipeline
+    * Frontend and Backend development (React and Spring/Java, respectively)
+    * Devops responsiblities (development, testing, and deployment)
+    * Co-creating institute-wide standards on the whole software development pipeline
   
 {% if site.publications %}
 Publications
