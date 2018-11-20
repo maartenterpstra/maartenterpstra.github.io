@@ -28,20 +28,6 @@ Work experience
     * Devops responsiblities (development, testing, and deployment)
     * Co-creating institute-wide standards on the whole software development pipeline
   
-{% if site.publications %}
-Publications
-------
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-{% endif %}
-{% if site.talks %}
-Talks
-------
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-{% endif %}
 Teaching
 ------
   <ul>{% for post in site.teaching %}
