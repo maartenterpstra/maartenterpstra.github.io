@@ -87,6 +87,7 @@ author:
   employer         :
   googlescholar    : 
   email            : "m.l.terpstra-5@umcutrecht.nl"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -256,7 +257,7 @@ timezone: Europe/Amsterdam # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
