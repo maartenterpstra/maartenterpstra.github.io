@@ -18,9 +18,9 @@ So what can we do about this? In this blog post, I will convince you that Docker
 
 So what is Docker?
 ------
-When you go to https://docker.com you will find a whole bunch Enterprise Talk about continuous innovation and cloud-native applications, which you will abruptly leave without having learned anything. 
+When you go to [https://docker.com](https://docker.com) you will find a whole bunch Enterprise Talk about continuous innovation and cloud-native applications, which you will abruptly leave without having learned anything. 
 
-![](/images/2018-12-29-why-docker-is-essential-for-researchers/docker-logo.png)
+![](/images/2018-12-29-why-docker-is-essential-for-researchers/docker_logo.png)
 
 Docker is an application that provides *operating-system-level virtualization*. You can think of this as a lightweight operating system that runs on top of your current operating system. It is lightweight in the sense that it does not run a full operating system but only its own libraries and applications in an isolated bundle.  
 
