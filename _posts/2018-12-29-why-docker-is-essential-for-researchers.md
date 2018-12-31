@@ -1,7 +1,7 @@
 ---
 title: 'Why Docker is essential for researchers'
 date: 2018-12-29
-permalink: /posts/2019/12/why-docker-is-essential-for-researchers/
+permalink: /posts/2018/12/why-docker-is-essential-for-researchers/
 tags:
   - Docker
   - Reproducibility
