@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 from glob import glob
 from PIL import Image
 
-images = sorted(glob('../images/2019-01-16-how-to-have-smooth-animations-in-jupyter-notebook-and-matplotlib/frame*.jpg'))
+images = sorted(glob('images/sloth-frame-*.jpg'))
 
 nrows, ncols = 2, 4
 fig, ax = plt.subplots(nrows=nrows, ncols=ncols, figsize=(9, 5))
