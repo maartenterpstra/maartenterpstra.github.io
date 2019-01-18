@@ -15,6 +15,23 @@ And for me, it varied. As in, all options did not work. Either they had the prob
 
 But in the end I found a solution that works, but for the life of me I cannot find anymore. I hope someone can inform me where I can find it again so I can give some proper credit. In lieu of that, I will share my solution here. Partly for preservation of knowledge for myself in case I run into this problem again in the future, or so someone won't have the same problem.
 
+Note that this was successfully tested with the following packages in Python 3.7.1:
+```python
+jupyter                            1.0.0              
+jupyter-client                     5.2.3              
+jupyter-console                    5.2.0              
+jupyter-contrib-core               0.3.3              
+jupyter-contrib-nbextensions       0.5.0              
+jupyter-core                       4.4.0              
+jupyter-highlight-selected-word    0.2.0              
+jupyter-latex-envs                 1.4.4              
+jupyter-nbextensions-configurator  0.4.0              
+jupyterlab                         0.34.9             
+jupyterlab-launcher                0.13.1             
+matplotlib                         2.2.3
+notebook                           5.6.0
+```
+
 Inspect the data
 ------
 So let's take a look at the data first (Image probably from the [CuteLittleAnimalGIFs Tumblr](http://littleanimalgifs.tumblr.com/post/25683807773/scratch-scratch), at least that is an source from 2012 I could find). 
