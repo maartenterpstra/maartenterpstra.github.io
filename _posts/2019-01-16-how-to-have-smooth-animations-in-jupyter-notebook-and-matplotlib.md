@@ -30,6 +30,7 @@ jupyterlab                         0.34.9
 jupyterlab-launcher                0.13.1             
 matplotlib                         2.2.3
 notebook                           5.6.0
+Pillow                             5.2.0
 ```
 
 Inspect the data
