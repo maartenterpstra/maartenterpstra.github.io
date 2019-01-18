@@ -75,22 +75,4 @@ plt.ioff()
 
 Now he is scratching happily! And without hiccups, blanks or other drawing artifacts. And you can do this for multiple subplots by just repeating all your operations for every subplot. They will draw at the same time because interactive mode is enabled and won't draw until you give the command with `fig.canvas.draw()`.
 
-So In summary, you get smooth, dynamically updated plots with matplotlib and Jupyter Notebook with the following recipe:
-
-
-
-```python
-%matplotlib notebook
-import matplotlib.pyplot as plt
-plt.ion()
-fig, subplots = make_subplots()
-for image in sequence:
-    subplot = get_relevant_subplot(subplots)
-    subplot.clear()
-    subplot.imshow(image)
-    fig.canvas.draw()
-    
-plt.ioff()
-```
-
-And you can do this for multiple images from multiple sequences at the same time.
+This recipe will work for any type of plot you do with matplotlib. So not just `imshow` but also `plot`, `quiver`, even 3D plots.
