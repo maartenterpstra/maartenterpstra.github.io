@@ -34,3 +34,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Notable achievements
+------
+
+ - Won one round at the Artifact Game Show @ ISMRM 2019
