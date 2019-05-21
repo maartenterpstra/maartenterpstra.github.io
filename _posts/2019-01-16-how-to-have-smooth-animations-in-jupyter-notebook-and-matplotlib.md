@@ -88,7 +88,7 @@ while True:
 # Leave interactive mode after you are done
 plt.ioff()
 ```
-<img src="https://mlterpstra-umc.github.io/images/2019-01-16-how-to-have-smooth-animations-in-jupyter-notebook-and-matplotlib/sloth.gif" />
+<img src="https://maartenterpstra.github.io/images/2019-01-16-how-to-have-smooth-animations-in-jupyter-notebook-and-matplotlib/sloth.gif" />
 
 
 Now he is scratching happily! And without hiccups, blanks or other drawing artifacts. And you can do this for multiple subplots by just repeating all your operations for every subplot. They will draw at the same time because interactive mode is enabled and won't draw until you give the command with `fig.canvas.draw()`.
